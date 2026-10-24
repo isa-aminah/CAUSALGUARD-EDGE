@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Large or generated video files
+uploads/
+results/
+*.mp4
+*.avi
+*.mov
+
+# Local database — preserve locally, do not commit automatically
+*.db
+*.sqlite
+*.sqlite3
